@@ -1,3 +1,3 @@
 #! /usr/bin/env bash
 
-echo "Hello, world!"
+ls -laS /usr/bin | head -8 | tr -s " " | cut -d' ' -f 5,9
